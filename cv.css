@@ -2,44 +2,37 @@
 html{
     font-family: Kufam;
 }
+body{
+    background-color: rgb(210, 205, 212);
+} 
+
 header{
     color:blue;
     padding: 40px;
     padding-bottom: 5px;
     font-size: 40px;
-    
-}
-
-body{
-    background-color: grey;
-} 
-
-
-.titre h1{
-    display: inline;
-    text-align: center;
-    font-size: 60px;
-    border: 2px solid red;
-    
-}
-
-.formation{
-    border: 2px solid rgb(32, 155, 32);
-}
-.loisir{
-    border: 2px solid rgb(158, 134, 91);
 }
 #entete{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid black;
-    margin-bottom: 40px;
-
+    border: 3px solid black;
+    box-shadow: 6px 6px 3px blue;
+    margin-bottom: 7rem;
+}
+.titre h1{
+    display: inline;
+    text-align: center;
+    font-size: 60px;
 }
 .titre{
-    text-align: center;
-    margin-bottom: 50px ;
+    display: inline-block;
+    margin-bottom: 8rem;
+    margin-left: 5rem;
+    
+    
+    border-bottom:3px dashed rgb(25, 27, 184);
+    
 }
 #exppro{
     display: flex;
@@ -47,9 +40,9 @@ body{
     justify-content: space-around;
     border: 1px solid black;
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 5rem;
 }
-h2{
+ .exp,.form,.lois h2{
     text-decoration: underline;
 }
 #formation{
@@ -58,7 +51,7 @@ h2{
     justify-content: space-around;
     border: 1px solid black;
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 5rem;
 }
 #loisir{
     display: flex;
@@ -67,14 +60,22 @@ h2{
     border: 1px solid black;
     font-size: 40px;
 }
-
-
-
-
-
-
-
-
+li{
+    line-height: 1.5;
+    list-style-type: none;
+}
+a:hover{
+    color: yellow;
+}
+ footer{
+    background-color: black;
+    height: 6rem;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 2.5rem;
+}
 
 
 

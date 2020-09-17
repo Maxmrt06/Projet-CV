@@ -19,6 +19,7 @@ header{
     border: 3px solid black;
     box-shadow: 6px 6px 3px blue;
     margin-bottom: 7rem;
+    padding: 2rem 0;
 }
 .titre h1{
     display: inline;
@@ -31,9 +32,9 @@ header{
     margin-left: 5rem;
     border-bottom:5px dashed rgb(25, 27, 184);
 }
-img{
-    width : 70px;
-    height: 70px;
+#img{
+    width: 140px;
+    height: 140px;
 }
 #exppro{
     display: flex;
@@ -42,8 +43,9 @@ img{
     border: 3px solid black;
     margin: 0 2rem 5rem 2rem;
     font-size: 40px;
-    border-radius: 10px;
+    border-radius: 10px
 }
+
 .exp,.form,.lois h2{
     text-decoration: underline;
 }
@@ -66,12 +68,23 @@ img{
     border-radius: 10px;
     
 }
+img{
+    width: 100px;
+    height: 100px;
+}
 li{
     line-height: 1.5;
-    list-style-type: none;
+    list-style-type: none ;
+}
+a{
+    text-decoration: none;
+    color: rgb(0,0,0)
 }
 a:hover{
     color: yellow;
+}
+.loi li{
+    list-style-type: '\2794';
 }
  footer{
     background-color: black;

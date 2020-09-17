@@ -7,43 +7,67 @@ header{
     padding: 40px;
     padding-bottom: 5px;
     font-size: 40px;
-    border: 1px solid blue;
-
+    
 }
+
 body{
     background-color: grey;
-}
-.titre{
-    width: 30rem;
-    height: 2rem;
+} 
 
+
+.titre h1{
+    display: inline;
     text-align: center;
+    font-size: 60px;
+    border: 2px solid red;
+    
 }
+
 .formation{
     border: 2px solid rgb(32, 155, 32);
 }
 .loisir{
     border: 2px solid rgb(158, 134, 91);
 }
-.exppro{
-    display: inline;
+#entete{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin-bottom: 40px;
+
 }
- 
-.exp{
-    display: inline-block;
-    border: 1px solid green;
-    float: left;
+.titre{
+    text-align: center;
+    margin-bottom: 50px ;
+}
+#exppro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
     font-size: 40px;
-    padding: 2rem;
+    margin-bottom: 20px;
 }
-.mag{
-    display: inline-block;
-    border: 1px solid red;
-    float: right;
-    font-size: 30px;
-    line-height: 1.5;
-    padding: 2rem;
+h2{
+    text-decoration: underline;
 }
+#formation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#loisir{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    font-size: 40px;
+}
+
 
 
 

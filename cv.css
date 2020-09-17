@@ -4,7 +4,11 @@ html{
 }
 header{
     color:blue;
-    padding-left: 20px;
+    padding: 40px;
+    padding-bottom: 5px;
+    font-size: 40px;
+    border: 1px solid blue;
+
 }
 body{
     background-color: grey;
@@ -22,18 +26,23 @@ body{
     border: 2px solid rgb(158, 134, 91);
 }
 .exppro{
-    border: 1px solid black;
-    height: 70px;
-   max-width: 100%;
+    display: inline;
 }
-
+ 
 .exp{
     display: inline-block;
     border: 1px solid green;
+    float: left;
+    font-size: 40px;
+    padding: 2rem;
 }
 .mag{
     display: inline-block;
     border: 1px solid red;
+    float: right;
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 2rem;
 }
 
 

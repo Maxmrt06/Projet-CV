@@ -29,36 +29,42 @@ header{
     display: inline-block;
     margin-bottom: 8rem;
     margin-left: 5rem;
-    
-    
-    border-bottom:3px dashed rgb(25, 27, 184);
-    
+    border-bottom:5px dashed rgb(25, 27, 184);
+}
+img{
+    width : 70px;
+    height: 70px;
 }
 #exppro{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid black;
+    border: 3px solid black;
+    margin: 0 2rem 5rem 2rem;
     font-size: 40px;
-    margin-bottom: 5rem;
+    border-radius: 10px;
 }
- .exp,.form,.lois h2{
+.exp,.form,.lois h2{
     text-decoration: underline;
 }
 #formation{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid black;
+    border: 3px solid black;
     font-size: 40px;
-    margin-bottom: 5rem;
+    margin: 0 2rem 5rem 2rem;
+    border-radius: 10px;
 }
 #loisir{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid black;
+    border: 3px solid black;
     font-size: 40px;
+    margin: 0 2rem 5rem 2rem;
+    border-radius: 10px;
+    
 }
 li{
     line-height: 1.5;
